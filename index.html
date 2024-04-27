@@ -1,52 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grupo 9 Noticias</title>
-    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Noticias</title>
+
 </head>
 <body>
-    <header>
-        <h1>Grupo 9</h1>
-        <nav>
-            <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Destacadas</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Tec</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Fin+</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Navbar -->
+    <nav>
+        <img src="./favicon/android-chrome-192x192.png" alt="Logo" height="50">
+        <a href="#">Inicio</a>
+        <a href="#">Noticias</a>
+        <a href="#">Contacto</a>
+        <a href="#">Acerca de</a>
+    </nav>
+
+    <!-- Hero -->
+    <div class="hero">
+        <h1>Últimas noticias</h1>
+    </div>
+
+    <!-- Main content -->
     <main>
-
-        <section class="contenedor">
-            <div class="card">
-                <img src="./images/meta.webp" alt="" class="card-img">
-                <p class="card-topic">TECNOLOGÍA</p>
-                <p class="card-author">Matias Pretz</p>
-                <p class="card-date">16-04-2024</p>
-                <h2 class="card-title">Facebook revela avances en realidad virtual y aumentada</h2>
+        <!-- Card 1 -->
+        <div class="card">
+            <img src="./images/noticia1.jpeg" alt="Noticia 1">
+            <div class="card-content">
+                <h2>Bombero héroe rescata a minino atrapado en árbol durante incendio</h2>
+                <p>Durante un incendio que consumía un vecindario en la ciudad, el bombero veterano Juan Pérez
+                    protagonizó un acto de valentía al rescatar a un gato atrapado en lo alto de un árbol en llamas. El
+                    felino, bautizado como "Pelusa" por los vecinos, fue llevado a salvo por Pérez, quien arriesgó su
+                    vida para asegurar la seguridad de todos los habitantes, incluyendo a los miembros peludos de la
+                    comunidad.</p>
             </div>
-            <div class="card">
-                <img src="./images/meta.webp" alt="" class="card-img">
-                <p class="card-topic">TECNOLOGÍA</p>
-                <p class="card-author">Matias Pretz</p>
-                <p class="card-date">16-04-2024</p>
-                <h2 class="card-title">Facebook revela avances en realidad virtual y aumentada</h2>
+        </div>
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="./images/noticia2.jpeg" alt="Noticia 2">
+            <div class="card-content">
+                <h2>Descubierto nuevo dinosaurio en Egipto: Un hallazgo que desafía la historia</h2>
+                <p>En un emocionante giro de los acontecimientos, un equipo de paleontólogos anunció el descubrimiento
+                    de un nuevo dinosaurio en el desierto de Egipto. El hallazgo es excepcional no solo por la rareza de
+                    encontrar restos fósiles en esta región, sino también por la singularidad de la especie. El
+                    dinosaurio, bautizado como "Aegyptosaurus", desafía las suposiciones previas sobre la distribución
+                    geográfica de estas criaturas prehistóricas. Los científicos esperan que este descubrimiento arroje
+                    luz sobre la evolución y la diversidad de los dinosaurios en el antiguo Egipto, reescribiendo parte
+                    de la historia de la vida en la región.</p>
             </div>
-            <div class="card">
-                <img src="./images/meta.webp" alt="" class="card-img">
-                <p class="card-topic">TECNOLOGÍA</p>
-                <p class="card-author">Matias Pretz</p>
-                <p class="card-date">16-04-2024</p>
-                <h2 class="card-title">Facebook revela avances en realidad virtual y aumentada</h2>
+        </div>
+        <!-- Card 3 -->
+        <div class="card">
+            <img src="./images/noticia3.jpeg" alt="Noticia 3">
+            <div class="card-content">
+                <h2>Nuevo avance científico promete revolucionar la energía renovable</h2>
+                <p>Científicos en un laboratorio de investigación anunciaron el desarrollo de una nueva tecnología que
+                    podría impulsar significativamente la eficiencia de las células solares. Este avance promete hacer
+                    que la energía solar sea más accesible y económica para un mayor número de personas, allanando el
+                    camino hacia un futuro más sostenible.
+                    Título: "Artista local transforma desechos plásticos en obras de arte para concienciar sobre la
+                    contaminación.</p>
             </div>
-
-
-        </section>
+        </div>
     </main>
 
-<script src="./assets/scripts.js"></script>    
+    <!-- Footer -->
+    <footer>
+        <p>Contacto: grupo9@noticias.com | Teléfono: 11-2345-6789</p>
+    </footer>
 </body>
 </html>

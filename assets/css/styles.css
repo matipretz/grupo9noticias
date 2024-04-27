@@ -1,0 +1,12 @@
+@import "reset.css";
+@import "nav.css";
+@import "hero.css";
+@import "card.css";
+@import "footer.css";
+
+
+
+
+main {
+    padding: 20px;
+}
