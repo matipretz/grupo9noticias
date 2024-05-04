@@ -9,7 +9,7 @@
     <link rel="manifest" href="./favicon/site.webmanifest">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/contacto.css">
-    <title>Noticias</title>
+    <title>Contactanos</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -46,13 +46,30 @@ campos sean obligatorios.
                 <option value="1">Contactar a un representante de ventas</option>
                 <option value="2">Quiero anunciar/publicitar en nuestra web de noticias</option>
                 <option value="3">Quiero suscribirme</option>                
+                <option value="4">Enviar imagenes para concurso</option>                
             </select>          
         </div>
         <div><label>Nombre y Apellido (*)</label></div>
         <div><input type="text" id="nombre" placeholder="Nombre" class="Registro"></div>
-        <div><label>Email</label> </div>
+        <div><label>Email (*)</label> </div>
         <div><input type="email" id="correo" placeholder="Email" class="Registro"></div>
-        <div><label>Subi una imagen</label> </div>
+        <div><label>Recibir noticias en tu mail</label> </div>
+        <div>
+            <ul class="nobullets listadoTematica">
+                <li> <input type="checkbox" id="chk1" value="1"  class=""> 
+                    <label for="chk1">Novedades destacadas</label></li>
+                    <li> <input type="checkbox" id="chk2" value="2"  class=""> 
+                        <label for="chk2">Temática tecnología</label></li>
+                    <li> <input type="checkbox" id="chk2" value="2"  class=""> 
+                        <label for="chk2">Temática Resto del mundo</label></li>
+                    <li> <input type="checkbox" id="chk2" value="2"  class=""> 
+                        <label for="chk2">Temática espectaculos</label></li>
+            </ul>
+           
+           
+        </div>
+
+        <div><label>Subi una imagen para participar en consursos</label> </div>
         <div><input type="file"  name="upl" value="Buscar" class="Registro"></div> 
         
        
