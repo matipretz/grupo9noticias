@@ -37,22 +37,23 @@ campos sean obligatorios.
     <div class="centroContacto">
     <h1>Contactanos</h1>
 
-    <form class="myForm" enctype="multipart/form-data">
+    <form class="myForm" id="myForm" enctype="multipart/form-data">
         <p>(*) Campos obligatorios</p>
         <div><label>Tipo de consulta (*)</label> </div>
         <div>
-        <select id="categoriaTicket" class="Registro">
-                <option selected value="0">Consulta General</option>
+        <select id="tipoconsulta" name="tipoconsulta" class="Registro">
+                <option selected value="0">Seleccioná un tipo de consulta</option>           
                 <option value="1">Contactar a un representante de ventas</option>
                 <option value="2">Quiero anunciar/publicitar en nuestra web de noticias</option>
                 <option value="3">Quiero suscribirme</option>                
                 <option value="4">Enviar imagenes para concurso</option>                
+                <option value="5">Otro tipo de consulta</option>                
             </select>          
         </div>
         <div><label>Nombre y Apellido (*)</label></div>
-        <div><input type="text" id="nombre" placeholder="Nombre" class="Registro"></div>
+        <div><input type="text" name="nombre" id="nombre" placeholder="Nombre" class="Registro"></div>
         <div><label>Email (*)</label> </div>
-        <div><input type="email" id="correo" placeholder="Email" class="Registro"></div>
+        <div><input type="email" id="correo" name="correo" placeholder="Email" class="Registro"></div>
         <div><label>Recibir noticias en tu mail</label> </div>
         <div>
             <ul class="nobullets listadoTematica">
@@ -73,7 +74,7 @@ campos sean obligatorios.
         <div><input type="file"  name="upl" value="Buscar" class="Registro"></div> 
         
        
-        <div><button type="button" id="btmContinuar">Enviar</button></div>
+        <div><button type="button" id="btnEnviar">Enviar</button></div>
     
     </form> 
 
@@ -95,5 +96,7 @@ campos sean obligatorios.
     <footer>
         <p>Contacto: grupo9@noticias.com | Teléfono: 11-2345-6789</p>
     </footer>
+
+    <script src="./assets/js/contacto.js"></script> 
 </body>
 </html>
