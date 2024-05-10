@@ -11,15 +11,19 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <!-- head -->
+    <div class="head">
+        <h1>Grupo 9</h1>
+    </div>
     <!-- Navbar -->
     <nav>
-        <img src="./favicon/favicon.svg" alt="Logo" height="50">
         <a href="index.html">Inicio</a>
         <a href="#">Noticias</a>
         <a href="contacto.html">Contacto</a>
         <a href="#">Acerca de</a>
     </nav>
- 
+
+
 
     <!-- Main content -->
     <main>
@@ -31,63 +35,72 @@ imagen, con validación realizada mediante JavaScript para que los
 campos sean obligatorios.
  -->
 
- <section   >
-    <div class="centroContacto">
-    <h1>Contactanos</h1>
+        <section>
+            <div class="centroContacto">
+                <h1>Contactanos</h1>
 
-    <form class="myForm" id="myForm" enctype="multipart/form-data">
-        <p>(*) Campos obligatorios</p>
-        <div><label>Tipo de consulta (*)</label> </div>
-        <div>
-        <select id="tipoconsulta" name="tipoconsulta" class="Registro">
-                <option selected value="0">Seleccioná un tipo de consulta</option>           
-                <option value="1">Contactar a un representante de ventas</option>
-                <option value="2">Quiero anunciar/publicitar en nuestra web de noticias</option>
-                <option value="3">Quiero suscribirme</option>                
-                <option value="4">Enviar imagenes para concurso</option>                
-                <option value="5">Otro tipo de consulta</option>                
-            </select>          
-        </div>
-        <div><label>Nombre y Apellido (*)</label></div>
-        <div><input type="text" name="nombre" id="nombre" placeholder="Nombre" class="Registro"></div>
-        <div><label>Email (*)</label> </div>
-        <div><input type="email" id="correo" name="correo" placeholder="Email" class="Registro"></div>
-        <div><label>Recibir noticias en tu mail</label> </div>
-        <div>
-            <ul class="nobullets listadoTematica">
-                <li> <input type="checkbox" id="chk1" value="1"  class=""> 
-                    <label for="chk1">Novedades destacadas</label></li>
-                    <li> <input type="checkbox" id="chk2" value="2"  class=""> 
-                        <label for="chk2">Temática tecnología</label></li>
-                    <li> <input type="checkbox" id="chk2" value="2"  class=""> 
-                        <label for="chk2">Temática Resto del mundo</label></li>
-                    <li> <input type="checkbox" id="chk2" value="2"  class=""> 
-                        <label for="chk2">Temática espectaculos</label></li>
-            </ul>
-           
-           
-        </div>
-
-        <div><label>Subi una imagen para participar en consursos</label> </div>
-        <div><input type="file"  name="upl" value="Buscar" class="Registro"></div> 
-        
-       
-        <div><button type="button" id="btnEnviar">Enviar</button></div>
-    
-    </form> 
-
-    <div class="subtitulo">Nuestras redes sociales</div> 
-    <div class=""><a href="https://www.Twitter.com" target="_blank" ><i class='bx bxl-twitter '  ></i> Seguinos en Twitter</a></div>
-    <div class=""><a href="https://www.Instragram.com" target="_blank"><i class='bx bxl-instagram-alt ' ></i> Seguinos en IG</a></div>
-  
+                <form class="myForm" id="myForm" enctype="multipart/form-data">
+                    <p>(*) Campos obligatorios</p>
+                    <div><label>Tipo de consulta (*)</label> </div>
+                    <div>
+                        <select id="tipoconsulta" name="tipoconsulta" class="Registro">
+                            <option selected value="0">Seleccioná un tipo de consulta</option>
+                            <option value="1">Contactar a un representante de ventas</option>
+                            <option value="2">Quiero anunciar/publicitar en nuestra web de noticias</option>
+                            <option value="3">Quiero suscribirme</option>
+                            <option value="4">Enviar imagenes para concurso</option>
+                            <option value="5">Otro tipo de consulta</option>
+                        </select>
+                    </div>
+                    <div><label>Nombre y Apellido (*)</label></div>
+                    <div><input type="text" name="nombre" id="nombre" placeholder="Nombre" class="Registro"></div>
+                    <div><label>Email (*)</label> </div>
+                    <div><input type="email" id="correo" name="correo" placeholder="Email" class="Registro"></div>
+                    <div><label>Recibir noticias en tu mail</label> </div>
+                    <div>
+                        <ul class="nobullets listadoTematica">
+                            <li> <input type="checkbox" id="chk1" value="1" class="">
+                                <label for="chk1">Novedades destacadas</label>
+                            </li>
+                            <li> <input type="checkbox" id="chk2" value="2" class="">
+                                <label for="chk2">Temática tecnología</label>
+                            </li>
+                            <li> <input type="checkbox" id="chk2" value="2" class="">
+                                <label for="chk2">Temática Resto del mundo</label>
+                            </li>
+                            <li> <input type="checkbox" id="chk2" value="2" class="">
+                                <label for="chk2">Temática espectaculos</label>
+                            </li>
+                        </ul>
 
 
-    <div class="subtitulo">Nuestra ubicaci&oacute;n : Florida 547</div> 
-  
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d517.2145433233526!2d-58.375343923313274!3d-34.60144523950009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacc66731a1b%3A0xe959182cfe060ecd!2sFlorida%20547%2C%20C1005AAK%20CABA!5e0!3m2!1ses-419!2sar!4v1683555730803!5m2!1ses-419!2sar" class="mapa" height="350"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
- </section>
-        
+                    </div>
+
+                    <div><label>Subi una imagen para participar en consursos</label> </div>
+                    <div><input type="file" name="upl" value="Buscar" class="Registro"></div>
+
+
+                    <div><button type="button" id="btnEnviar">Enviar</button></div>
+
+                </form>
+
+                <div class="subtitulo">Nuestras redes sociales</div>
+                <div class=""><a href="https://www.Twitter.com" target="_blank"><i class='bx bxl-twitter '></i> Seguinos
+                        en Twitter</a></div>
+                <div class=""><a href="https://www.Instragram.com" target="_blank"><i class='bx bxl-instagram-alt '></i>
+                        Seguinos en IG</a></div>
+
+
+
+                <div class="subtitulo">Nuestra ubicaci&oacute;n : Florida 547</div>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d517.2145433233526!2d-58.375343923313274!3d-34.60144523950009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacc66731a1b%3A0xe959182cfe060ecd!2sFlorida%20547%2C%20C1005AAK%20CABA!5e0!3m2!1ses-419!2sar!4v1683555730803!5m2!1ses-419!2sar"
+                    class="mapa" height="350" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
     </main>
 
     <!-- Footer -->
@@ -95,6 +108,6 @@ campos sean obligatorios.
         <p>Contacto: grupo9@noticias.com | Teléfono: 11-2345-6789</p>
     </footer>
 
-    <script src="./assets/js/contacto.js"></script> 
+    <script src="./assets/js/contacto.js"></script>
 </body>
 </html>

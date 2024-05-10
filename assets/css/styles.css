@@ -1,6 +1,6 @@
 @import "reset.css";
 @import "nav.css";
-@import "hero.css";
+@import "head.css";
 @import "card.css";
 @import "footer.css";
 
@@ -10,7 +10,7 @@ main {
     padding: 20px;
 }
 
-body{
+body {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
