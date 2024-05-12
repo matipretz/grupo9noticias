@@ -10,7 +10,7 @@
         - Armar entradas tipo blog con las noticias mas nuevas arriba.
     - Contacto:
         - Armar formulario de contacto que cumpla con los requisitos. (se puede aplicar js para que se envie por mail)
-    - Acerca de:
+    - Acerca de (Nosotros):
         - Armar tarjetas de integrantes del grupo que tengan avatar, nombre, enlace a linkedin, correo y repositorio.
         - Breve descripcion de los valores, principios y soluciones que aporta la pagina.
     - FOOTER
