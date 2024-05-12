@@ -1,6 +1,4 @@
-
-
-  const emailValido=correo=>{
+const emailValido=correo=>{
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(correo);
 }
 let btnEnviar=document.getElementById("btnEnviar");
@@ -35,10 +33,27 @@ function validarFormulario(){
         alert(falta);
     }else{
         console.log('todo ok '+ falta);
-        alert('Todo parece correcto, falta implementar el submit');
-        //myForm.submit();
+        alert("Gracias por contactarse con nosotros. \nSu mensaje será respondido a la brevedad.");
+        myForm.submit();
         return;
     }
- 
+ }
 
-}
+
+
+ document.getElementById('imagen').addEventListener('change', function(event) {
+    var file = event.target.files[0];
+    var preview = document.getElementById('preview');
+    preview.innerHTML = '';
+
+    var imgContainer = document.createElement('div');
+    imgContainer.style.marginBottom = '20px'; 
+    var img = document.createElement('img');
+    img.src = URL.createObjectURL(file);
+    img.style.height = '100px';
+    img.style.display = 'block'; 
+
+    imgContainer.appendChild(img);
+
+    preview.appendChild(imgContainer);
+});

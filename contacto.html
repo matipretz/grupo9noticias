@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="stylesheet" href="./assets/css/contacto.css">
     <title>Contactanos</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -32,58 +32,70 @@
         <!-- 
             REQUERIMIENTO
             El sitio web debe incluir un formulario de contacto, con al menos 5
-campos que incluya (un checkbox o radiobutton), un select y una
-imagen, con validación realizada mediante JavaScript para que los
-campos sean obligatorios.
- -->
+            campos que incluya (un checkbox o radiobutton), un select y una
+            imagen, con validación realizada mediante JavaScript para que los
+            campos sean obligatorios.
+
+            Verfificar el submit en https://maildrop.cc/inbox/?mailbox=g9
+            -->
 
         <section>
             <div class="centroContacto">
-                <h1>Contactanos</h1>
+                <h2>Contactanos</h2>
 
-                <form class="myForm" id="myForm" enctype="multipart/form-data">
+                <form class="myForm" id="myForm" method="post"
+                    action="https://forms.un-static.com/forms/85e2051181fe9ade1d5d86acaeedd5973df298a3">
+
                     <p>(*) Campos obligatorios</p>
-                    <div><label>Tipo de consulta (*)</label> </div>
+                    <div><label for="tipoconsulta">Tipo de consulta (*)</label> </div>
                     <div>
                         <select id="tipoconsulta" name="tipoconsulta" class="Registro">
                             <option selected value="0">Seleccioná un tipo de consulta</option>
-                            <option value="1">Contactar a un representante de ventas</option>
-                            <option value="2">Quiero anunciar/publicitar en nuestra web de noticias</option>
-                            <option value="3">Quiero suscribirme</option>
-                            <option value="4">Enviar imagenes para concurso</option>
-                            <option value="5">Otro tipo de consulta</option>
+                            <option value="Contactar a un representante de ventas">Contactar a un representante de
+                                ventas</option>
+                            <option value="Quiero anunciar/publicitar en nuestra web de noticias">Quiero
+                                anunciar/publicitar en nuestra web de noticias</option>
+                            <option value="Quiero suscribirme">Quiero suscribirme</option>
+                            <option value="Enviar imagenes para concurso">Enviar imagenes para concurso</option>
+                            <option value="Otro tipo de consulta">Otro tipo de consulta</option>
                         </select>
                     </div>
-                    <div><label>Nombre y Apellido (*)</label></div>
+                    <div><label for="nombre">Nombre y Apellido (*)</label></div>
                     <div><input type="text" name="nombre" id="nombre" placeholder="Nombre" class="Registro"></div>
-                    <div><label>Email (*)</label> </div>
+                    <div><label for="correo">Email (*)</label> </div>
                     <div><input type="email" id="correo" name="correo" placeholder="Email" class="Registro"></div>
-                    <div><label>Recibir noticias en tu mail</label> </div>
                     <div>
-                        <ul class="nobullets listadoTematica">
-                            <li> <input type="checkbox" id="chk1" value="1" class="">
-                                <label for="chk1">Novedades destacadas</label>
-                            </li>
-                            <li> <input type="checkbox" id="chk2" value="2" class="">
-                                <label for="chk2">Temática tecnología</label>
-                            </li>
-                            <li> <input type="checkbox" id="chk2" value="2" class="">
-                                <label for="chk2">Temática Resto del mundo</label>
-                            </li>
-                            <li> <input type="checkbox" id="chk2" value="2" class="">
-                                <label for="chk2">Temática espectaculos</label>
-                            </li>
-                        </ul>
-
+                        <textarea id="subject" name="subject" class="Registro" placeholder="Escribe algo..."
+                            style="height:200px;"></textarea>
 
                     </div>
-
-                    <div><label>Subi una imagen para participar en consursos</label> </div>
-                    <div><input type="file" name="upl" value="Buscar" class="Registro"></div>
-
-
-                    <div><button type="button" id="btnEnviar">Enviar</button></div>
-
+                    <div>
+                        <p>Recibir noticias en tu mail</p>
+                    </div>
+                    <div>
+                        <ul class="nobullets listadoTematica">
+                            <li> <input name="Novedades" type="checkbox" id="chk1">
+                                <label for="chk1">Novedades destacadas</label>
+                            </li>
+                            <li> <input name="Tecnología" type="checkbox" id="chk2">
+                                <label for="chk2">Temática tecnología</label>
+                            </li>
+                            <li> <input name="Resto del mundo" type="checkbox" id="chk3">
+                                <label for="chk3">Temática Resto del mundo</label>
+                            </li>
+                            <li> <input name="Espectaculos" type="checkbox" id="chk4">
+                                <label for="chk4">Temática espectaculos</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>Subi una imagen para participar en consursos</p>
+                    </div>
+                    <div><input type="file" name="imagen" id="imagen" class="Registro" accept="image/*">
+                    </div>
+                    <div id="preview"></div>
+                    <div>                         <button type="submit" id="btnEnviar">Enviar</button>
+                    </div>
                 </form>
 
                 <div class="subtitulo">Nuestras redes sociales</div>
