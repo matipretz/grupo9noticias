@@ -8,6 +8,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
     <link rel="manifest" href="./favicon/site.webmanifest">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <title>Grupo 9</title>
 
 </head>
@@ -30,45 +32,121 @@
 
     <!-- Main content -->
     <main id="noticias">
-        <!-- Card 1 -->
-        <div class="card" >
-            <img src="./images/noticia1.jpeg" alt="Noticia 1">
-            <div class="card-content">
-                <h2>Bombero héroe rescata a minino atrapado en árbol durante incendio</h2>
-                <p>Durante un incendio que consumía un vecindario en la ciudad, el bombero veterano Juan Pérez
-                    protagonizó un acto de valentía al rescatar a un gato atrapado en lo alto de un árbol en llamas. El
-                    felino, bautizado como "Pelusa" por los vecinos, fue llevado a salvo por Pérez, quien arriesgó su
-                    vida para asegurar la seguridad de todos los habitantes, incluyendo a los miembros peludos de la
-                    comunidad.</p>
-            </div>
-        </div>
-        <!-- Card 2 -->
-        <div class="card">
-            <img src="./images/noticia2.jpeg" alt="Noticia 2">
-            <div class="card-content">
-                <h2>Descubierto nuevo dinosaurio en Egipto: Un hallazgo que desafía la historia</h2>
-                <p>En un emocionante giro de los acontecimientos, un equipo de paleontólogos anunció el descubrimiento
-                    de un nuevo dinosaurio en el desierto de Egipto. El hallazgo es excepcional no solo por la rareza de
-                    encontrar restos fósiles en esta región, sino también por la singularidad de la especie. El
-                    dinosaurio, bautizado como "Aegyptosaurus", desafía las suposiciones previas sobre la distribución
-                    geográfica de estas criaturas prehistóricas. Los científicos esperan que este descubrimiento arroje
-                    luz sobre la evolución y la diversidad de los dinosaurios en el antiguo Egipto, reescribiendo parte
-                    de la historia de la vida en la región.</p>
-            </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="card">
-            <img src="./images/noticia3.jpeg" alt="Noticia 3">
-            <div class="card-content">
-                <h2>Nuevo avance científico promete revolucionar la energía renovable</h2>
-                <p>Científicos en un laboratorio de investigación anunciaron el desarrollo de una nueva tecnología que
-                    podría impulsar significativamente la eficiencia de las células solares. Este avance promete hacer
-                    que la energía solar sea más accesible y económica para un mayor número de personas, allanando el
-                    camino hacia un futuro más sostenible.
-                    Título: "Artista local transforma desechos plásticos en obras de arte para concienciar sobre la
-                    contaminación.</p>
-            </div>
-        </div>
+        <section class="contenedor">
+            <!-- Card TW -->
+            <a href="#" class="group relative block bg-black m-3 ">
+                <img alt="" src="./images/noticia1.jpeg"
+                    class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50" />
+
+                <div class="relative p-4 sm:p-6 lg:p-8">
+                    <p class="text-sm font-medium uppercase tracking-widest text-pink-500">Barriales</p>
+
+                    <p class="text-xl font-bold text-white sm:text-2xl">Bombero héroe rescata a minino atrapado en árbol
+                        durante incendio</p>
+
+                    <div class="mt-32 sm:mt-48 lg:mt-64">
+                        <div
+                            class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                            <p class="text-sm text-white">
+                                Durante un incendio que consumía un vecindario en la ciudad, el bombero veterano Juan
+                                Pérez
+                                protagonizó un acto de valentía al rescatar a un gato atrapado en lo alto de un árbol en
+                                llamas.
+                                El
+                                felino, bautizado como "Pelusa" por los vecinos, fue llevado a salvo por Pérez, quien
+                                arriesgó
+                                su
+                                vida para asegurar la seguridad de todos los habitantes, incluyendo a los miembros
+                                peludos de la
+                                comunidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+
+
+
+
+
+
+
+            <a href="#" class="group relative block bg-black m-3">
+                <img alt="" src="./images/noticia2.jpeg"
+                    class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50" />
+
+                <div class="relative p-4 sm:p-6 lg:p-8">
+                    <p class="text-sm font-medium uppercase tracking-widest text-pink-500">Ciencia</p>
+
+                    <p class="text-xl font-bold text-white sm:text-2xl">Descubierto nuevo dinosaurio en Egipto: Un
+                        hallazgo que desafía la historia</p>
+
+                    <div class="mt-32 sm:mt-48 lg:mt-64">
+                        <div
+                            class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                            <p class="text-sm text-white">
+                                En un emocionante giro de los acontecimientos, un equipo de paleontólogos anunció el
+                                descubrimiento
+                                de un nuevo dinosaurio en el desierto de Egipto. El hallazgo es excepcional no solo por
+                                la
+                                rareza de
+                                encontrar restos fósiles en esta región, sino también por la singularidad de la especie.
+                                El
+                                dinosaurio, bautizado como "Aegyptosaurus", desafía las suposiciones previas sobre la
+                                distribución
+                                geográfica de estas criaturas prehistóricas. Los científicos esperan que este
+                                descubrimiento
+                                arroje
+                                luz sobre la evolución y la diversidad de los dinosaurios en el antiguo Egipto,
+                                reescribiendo
+                                parte
+                                de la historia de la vida en la región.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+
+            <a href="#" class="group relative block bg-black m-3">
+                <img alt="" src="./images/noticia3.jpeg"
+                    class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50" />
+
+                <div class="relative p-4 sm:p-6 lg:p-8">
+                    <p class="text-sm font-medium uppercase tracking-widest text-pink-500">Tecnología</p>
+
+                    <p class="text-xl font-bold text-white sm:text-2xl">Nuevo avance científico promete revolucionar la
+                        energía renovable</p>
+
+                    <div class="mt-32 sm:mt-48 lg:mt-64">
+                        <div
+                            class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                            <p class="text-sm text-white">
+                                Científicos en un laboratorio de investigación anunciaron el desarrollo de una nueva
+                                tecnología
+                                que
+                                podría impulsar significativamente la eficiencia de las células solares. Este avance
+                                promete
+                                hacer
+                                que la energía solar sea más accesible y económica para un mayor número de personas,
+                                allanando
+                                el
+                                camino hacia un futuro más sostenible.
+                                Título: "Artista local transforma desechos plásticos en obras de arte para concienciar
+                                sobre la
+                                contaminación.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+
+
+
+        </section>
+
     </main>
 
     <!-- Footer -->
