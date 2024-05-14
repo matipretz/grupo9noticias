@@ -9,3 +9,16 @@
   grid-template-columns: repeat(auto-fit, minmax(100%, 3fr));
   }
 }
+
+.botonSubir{
+    bottom: 40px;
+    z-index: 1000;
+    padding: 12px;
+    right: 18px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #b9b9b9;
+    position: fixed;
+}
