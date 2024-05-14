@@ -3,3 +3,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
 }
+
+@media screen and (max-width: 1000px) {
+.contenedor {
+  grid-template-columns: repeat(auto-fit, minmax(100%, 3fr));
+  }
+}
