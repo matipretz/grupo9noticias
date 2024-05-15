@@ -4,10 +4,10 @@
   grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
 }
 
-@media screen and (max-width: 1000px) {
-.contenedor {
-  grid-template-columns: repeat(auto-fit, minmax(100%, 3fr));
-  }
+
+.group {
+  height: 590px;
+  overflow: hidden;
 }
 
 .botonSubir{
@@ -22,3 +22,14 @@
     background-color: #b9b9b9;
     position: fixed;
 }
+
+@media screen and (max-width: 1000px) {
+  .contenedor {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 3fr));
+    }
+    .group {
+      height: auto;
+      overflow: hidden;
+    }
+  }
+  
