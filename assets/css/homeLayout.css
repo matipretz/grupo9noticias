@@ -10,26 +10,29 @@
   overflow: hidden;
 }
 
-.botonSubir{
-    bottom: 40px;
-    z-index: 1000;
-    padding: 12px;
-    right: 18px;
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    cursor: pointer;
-    background-color: #b9b9b9;
-    position: fixed;
+.botonSubir {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.70);
+  background-color: rgba(185, 185, 185, 0.40);
+  border-radius: 50%;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  z-index: 99;
+  display: none;
+  
 }
 
 @media screen and (max-width: 1000px) {
   .contenedor {
     grid-template-columns: repeat(auto-fit, minmax(100%, 3fr));
-    }
-    .group {
-      height: auto;
-      overflow: hidden;
-    }
   }
-  
+
+  .group {
+    height: auto;
+    overflow: hidden;
+  }
+}
