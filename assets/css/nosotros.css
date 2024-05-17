@@ -25,6 +25,10 @@
     width: 50%;
 }
 
+.nosotros-section.section-integrantes {
+    margin-top: 60px;
+}
+
 .card-integrante {
     width: calc(100% / 5);
 }
@@ -37,6 +41,7 @@
 }
 
 .card-integrante__nombre {
+    margin-top: 20px;
     text-align: center;
 }
 
