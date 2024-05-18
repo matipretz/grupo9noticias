@@ -19,18 +19,6 @@
             "titulo": "Nuevo avance científico promete revolucionar la energía renovable"
         },
         {
-            "categoria": "Farandula",
-            "copete": "El actor estadounidense Aaron Paul, quien interpretó a Jesse Pinkman en 'Breaking Bad', reveló que usa un 'teléfono tonto del tamaño de una tarjeta de crédito' que no puede almacenar aplicaciones y solo puede hacer llamadas y enviar mensajes de texto. \"No tiene cámara ni correo electrónico,\" dijo Paul, agregando que planea comprar un teléfono de tapa. \"No he tenido una computadora en más de 10 años,\" añadió.",
-            "imagenUrl": "https://grupo9.vercel.app/images/braking.jpg",
-            "titulo": "Uso un 'teléfono tonto' que solo hace llamadas y envía textos: actor de 'Breaking Bad'"
-        },
-        {
-            "categoria": "Salud",
-            "copete": "Google compartió recientemente cinco medidas básicas de protección contra el coronavirus que pueden seguir las personas en todo el mundo. Estas incluyen lavarse las manos con frecuencia, toser en el codo, no tocarse la cara, mantenerse a más de un metro de distancia de los demás y quedarse en casa si se sienten enfermos. Los ingenieros de Google también están construyendo un sitio web para evaluar a posibles pacientes de coronavirus en EE.UU.",
-            "imagenUrl": "https://grupo9.vercel.app/images/google.jpg",
-            "titulo": "Google comparte 5 medidas básicas de protección contra el coronavirus"
-        },
-        {
             "categoria": "Comida",
             "copete": "El famoso chef español José Andrés anunció que sus restaurantes se convertirán en cocinas comunitarias para proporcionar comidas gratuitas a personas afectadas por la pandemia del coronavirus. Andrés dijo que su equipo está preparado para ofrecer miles de comidas diarias y que están comprometidos a ayudar a la comunidad en estos tiempos difíciles.",
             "imagenUrl": "https://grupo9.vercel.app/images/chef.jpeg",
@@ -65,6 +53,18 @@
             "copete": "La Organización Mundial de la Salud (OMS) ha lanzado una aplicación móvil para proporcionar información precisa y actualizada sobre el coronavirus. La aplicación, disponible en varios idiomas, incluye consejos de salud, noticias y actualizaciones sobre la pandemia, así como herramientas para la autoevaluación de los síntomas.",
             "imagenUrl": "https://grupo9.vercel.app/images/oms.jpg",
             "titulo": "La OMS lanza una aplicación móvil para información sobre el coronavirus"
+        },
+        {
+            "categoria": "Farandula",
+            "copete": "El actor estadounidense Aaron Paul, quien interpretó a Jesse Pinkman en 'Breaking Bad', reveló que usa un 'teléfono tonto del tamaño de una tarjeta de crédito' que no puede almacenar aplicaciones y solo puede hacer llamadas y enviar mensajes de texto. \"No tiene cámara ni correo electrónico,\" dijo Paul, agregando que planea comprar un teléfono de tapa. \"No he tenido una computadora en más de 10 años,\" añadió.",
+            "imagenUrl": "https://grupo9.vercel.app/images/braking.jpg",
+            "titulo": "Uso un 'teléfono tonto' que solo hace llamadas y envía textos: actor de 'Breaking Bad'"
+        },
+        {
+            "categoria": "Salud",
+            "copete": "Google compartió recientemente cinco medidas básicas de protección contra el coronavirus que pueden seguir las personas en todo el mundo. Estas incluyen lavarse las manos con frecuencia, toser en el codo, no tocarse la cara, mantenerse a más de un metro de distancia de los demás y quedarse en casa si se sienten enfermos. Los ingenieros de Google también están construyendo un sitio web para evaluar a posibles pacientes de coronavirus en EE.UU.",
+            "imagenUrl": "https://grupo9.vercel.app/images/google.jpg",
+            "titulo": "Google comparte 5 medidas básicas de protección contra el coronavirus"
         }
     ]
 }
