@@ -22,7 +22,7 @@ const LeerApi = async () => {
      
       for(let dato of resultadoapi.data){   
           contenedor.innerHTML += '<div class="unaNotadetalle aparecer">' +
-                    '<div class="noticiasfoto"><img alt="" src="'+ dato.imageUrl + '"></div>' +
+                    '<div class="noticiasfoto"><img alt="" src="'+ dato.imagenUrl + '"></div>' +
                     '<div class="noticiasTexto">' +
                     '<p class="text-sm font-medium uppercase tracking-widest text-pink-500">' + dato.categoria + ' </p>' +                    
                     '<p class="text-xl font-bold  sm:text-2xl slide-in-left">' + dato.titulo + '</p>' + 
