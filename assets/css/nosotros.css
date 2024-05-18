@@ -4,22 +4,9 @@
     gap: 3rem;
 }
 
-.nosotros-section {
-    /*Basado en el padding de el formulario de contacto, despues podemos unificar*/
-    padding: 20px 40px;
-}
 
-.nosotros-section.section-doble {
-    display: flex;
-    justify-content: center;
-}
 
-.section-doble__parrafo {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-    text-align: justify;
-    margin-bottom: 1rem;
-}
+
 
 .nosotros-section__image {
     width: 50%;
@@ -36,8 +23,8 @@
 .card-integrante__image {
     width: 70%;
     margin: 0 auto;
-    border-radius: 50%; /* Hace que los bordes sean redondos */
-    box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 
 .card-integrante__nombre {
@@ -46,6 +33,7 @@
 }
 
 .card-integrante__texto {
-    text-align: justify;
+    text-align: center;
+    white-space: nowrap;
     margin: 20px 40px;
 }
