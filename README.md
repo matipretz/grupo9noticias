@@ -49,6 +49,7 @@ H. [Links](#links)
 - Se estudiaron metodos modernos con la simplicidad como requisito fundamental. Se utilizan unidades relativas y propiedades avanzadas de CSS.
 - Las fuentes son reescaladas dinamicamente en proporcion al width del viewport por medio de la propiedad de calculo que ofrece CSS.
 - Las secciones con grids se escalan y disponen automaticamente gracias a grid-template y la propiedad minmax
+- Se utilizó mediaquerys para 3 tamaños de pantalla para cumplir con los requerimientos en el detalle de una nota como ejemplo (nota1.html)
 
 ### Formulario de contacto:
 
