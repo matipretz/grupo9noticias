@@ -30,6 +30,9 @@
 .contenedorListadoNoticias{
     padding: 25px;
 }
+.copete{
+    margin-top: 10px;
+}
 
 
 @media screen and (max-width: 768px) {
