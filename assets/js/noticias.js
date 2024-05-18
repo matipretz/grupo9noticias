@@ -1,14 +1,8 @@
-const LeerApi = async () => {
-    try{
+const LeerApi = async () => { 
       let url = "https://grupo9.vercel.app/json/noticias.json";
       const res = await fetch(url);
-      const datos = await res.json();
-      console.log( ' Acá tan las noticias ');
-      return datos;
-    } catch(err) {
-      console.log('Error al leer json. Culpa de vercel :P',err);
-      return '';
-    }
+      const datos = await res.json();     
+      return datos;     
   };
    
   async function Noticias() {
