@@ -41,3 +41,7 @@
     color: dimgray;
     margin-bottom: 25px;
 }
+
+button {
+    border: solid 0.5px;
+}
