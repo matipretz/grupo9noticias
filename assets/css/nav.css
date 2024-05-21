@@ -3,13 +3,15 @@ ul {
     padding: 0;
     list-style: none;
 }
-nav{
+
+nav {
     width: 100%;
-    border-bottom: 5px solid rgba(0,0,0,0.2);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.2);
 
 
 }
-.menu{
+
+.menu {
     margin: 0;
     padding: 0;
     display: flex;
@@ -17,36 +19,43 @@ nav{
     align-items: stretch;
     height: 70px;
 }
-.menu li{
+
+.menu li {
     display: inline-block;
     width: 90px;
 }
-.menu  li a{
+
+.menu li a {
     text-decoration: none;
 }
-.menu li:hover{
+
+.menu li:hover {
     height: 85px;
 }
-.menu > li:hover > a{
-      color: #3e95ff;
-      border-bottom: #3e95ff solid 4px;
-      transition: all 0.1s ease-in-out;
-      -webkit-transition: all 0.1s ease-in-out;
-      -moz-transition: all 0.1s ease-in-out;
-      -ms-transition: all 0.1s ease-in-out;
-      -o-transition: all 0.1s ease-in-out;
+
+.menu>li:hover>a {
+    color: #3e95ff;
+    border-bottom: #3e95ff solid 4px;
+    transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
 }
-.menu > li:hover > a::before{  
+
+.menu>li:hover>a::before {
     visibility: visible;
     scale: 1 1;
-    
+
 }
-.menu > li a{
+
+.menu>li a {
     color: #999;
     position: relative;
     height: 100%;
 }
-.menu > li > a::before{
+
+.menu>li>a::before {
     content: "";
     position: absolute;
     width: 100%;

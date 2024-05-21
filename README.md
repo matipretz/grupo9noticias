@@ -53,14 +53,14 @@ H. [Links](#links)
 
 ### Formulario de contacto:
 
-- Integra  un servicio controlador de correo que remite el formulario sin exponer la casilla. Verifica que los campos no esten vacios y se vale de Regex para corroborar el formato del email.
+- Integra un servicio controlador de correo que remite el formulario sin exponer la casilla. Verifica que los campos no esten vacios y se vale de Regex para corroborar el formato del email.
 
 ## Integrantes del Equipo:
 
-- [Lucas Ojunian]()
-- [Juan Marcos Kruppa]()
+- [Lucas Ojunian](https://www.linkedin.com/in/lucas-ojunian-012a5583/)
+- [Juan Marcos Kruppa](https://www.linkedin.com/in/kruppamarcos/)
 - [Matias Martin Murad Pretz](https://www.linkedin.com/in/matipretz/)
-- [Noelia Matamoros]()
+- [Noelia Matamoros](https://www.linkedin.com/in/noelia-matamoros-1ba9591b9/)
 
 ## Recursos Utilizados:
 
@@ -70,7 +70,6 @@ H. [Links](#links)
 - [MetaTags.io](https://metatags.io/): Genera meta-tags de forma automatica.
 - [Squoosh](https://squoosh.app/): Compresor de imagenes.
 - [Tailwind CSS](https://tailwindcss.com/): Framework CSS.
-- [Copilot](https://copilot.microsoft.com/): IA generativa.
 - [UnStatic](https://forms.un-static.com/): Controlador formulario/e-mail.
 
 ## Links:

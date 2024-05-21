@@ -4,5 +4,5 @@ document.getElementById("arriba").addEventListener("click", () => {
 });
 
 window.addEventListener("scroll", () => {
-    arriba.style.display = window.scrollY > 50 ? "block" : "none";
+  arriba.style.display = window.scrollY > 50 ? "block" : "none";
 });
