@@ -13,7 +13,7 @@ h1 {
 }
 
 .imgFondo {
-    background: url('../../images/noticia1.jpeg') no-repeat #cccccc;
+    background: url('../../images/noticia1.webp') no-repeat #cccccc;
     background-position-y: -200px;
     background-size: cover;
 
@@ -22,7 +22,7 @@ h1 {
 
 @media screen and (max-width: 768px) {
     .imgFondo {
-        background: url('../../images/noticia1.mobile.jpg') no-repeat #cccccc;
+        background: url('../../images/noticia1.mobile.webp') no-repeat #cccccc;
         background-position-y: -10px;
         height: 300px;
     }
@@ -31,7 +31,7 @@ h1 {
 
 @media screen and (max-width: 476px) {
     .imgFondo {
-        background: url('../../images/noticia1.mobile.jpg') no-repeat #cccccc;
+        background: url('../../images/noticia1.mobile.webp') no-repeat #cccccc;
         background-position-y: -10px;
         height: 300px;
     }
@@ -40,7 +40,7 @@ h1 {
 
 @media screen and (max-width: 320px) {
     .imgFondo {
-        background: url('../../images/noticia1.mobile.jpg') no-repeat #cccccc;
+        background: url('../../images/noticia1.mobile.webp') no-repeat #cccccc;
         background-position-y: -1px;
         height: 300px;
     }
