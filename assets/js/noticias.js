@@ -13,6 +13,7 @@ fetch('https://grupo9back-production.up.railway.app/noticias')
             <div class="noticiasTexto">
               <p class="text-sm font-medium uppercase tracking-widest text-pink-500">${noticia.categoria}</p>
               <p class="text-xl font-bold  sm:text-2xl slide-in-left"> ${noticia.titulo}</p>
+              <p>Por: ${noticia.autor}</p>
                
             </div>
           </div>
