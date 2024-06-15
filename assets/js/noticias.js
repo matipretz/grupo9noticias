@@ -1,4 +1,4 @@
-fetch('https://grupo9back-production.up.railway.app/noticias')
+fetch('https://grupo9api-production.up.railway.app/noticias')
   .then(res => res.json())
   .then(noticias => {
     const html = noticias
@@ -37,7 +37,7 @@ const contenedor = document.getElementById('contenedorListadoNoticias')
 contenedor.innerHTML = '<div align="center">Cargando noticias...</div>'
 
 function vernoticia (id) {
-  fetch(`https://grupo9back-production.up.railway.app/noticias/${id}`)
+  fetch(`https://grupo9api-production.up.railway.app/noticias/${id}`)
     .then(res => res.json())
     .then(noticia => {
       contenedor.innerHTML = `
